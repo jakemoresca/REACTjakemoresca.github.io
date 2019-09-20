@@ -1,13 +1,15 @@
 {
-  "name": "client",
+  "name": "jakedarylmoresca-portfolio",
+  "homepage": "https://jakemoresca.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bootstrap": "4.2.1",
     "connected-react-router": "6.2.1",
+    "gh-pages": "^2.1.1",
+    "history": "4.7.1",
     "jquery": "3.3.1",
     "merge": "1.2.1",
-    "history": "4.7.1",
     "react": "16.9.0",
     "react-dom": "16.9.0",
     "react-redux": "7.1.0",
@@ -39,6 +41,8 @@
     "typescript-eslint-parser": "21.0.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "cross-env CI=true react-scripts test --env=jsdom",

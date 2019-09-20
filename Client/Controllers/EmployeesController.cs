@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Client.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,15 +9,27 @@ namespace Client.Controllers
     [ApiController]
     public class EmployeesController : ControllerBase
     {
-        public IReadOnlyList<Employee> Get()
+        public async IAsyncEnumerable<Employee> GetAsync()
         {
-            var employees = new List<Employee>
+            for(var x = 0; x <= 5; x++)
             {
-                new Employee("last", "first", 1),
-                new Employee("last2", "first2", 2)
-            };
+                yield return new Employee("last2", "first2", 2);
+            }
+        }
 
-            return employees;
+        public async Task Test()
+        {
+            var testing = GetAsync();
+
+            await foreach(var test2 in testing)
+            {
+                await SampleAsync(test2);
+            }
+        }
+
+        public Task SampleAsync(Employee employee)
+        {
+            return Task.FromResult(employee);
         }
     }
 }

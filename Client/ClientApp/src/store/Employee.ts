@@ -33,10 +33,7 @@ export const requestEmployeeList = () => async (dispatch: Dispatch) =>
 {
     dispatch({ type: ActionTypes.REQUEST_EMPLOYEE_LIST });
 
-    let response = await fetch("/api/Employees");
-    let employeeList = await response.json();
-
-    dispatch({ type: ActionTypes.RECEIVE_EMPLOYEE_LIST, employeeList: employeeList });
+    dispatch({ type: ActionTypes.RECEIVE_EMPLOYEE_LIST, employeeList: [] });
 }
 
 const initialState: EmployeeState = { employeeList: [], isFetching: false };
