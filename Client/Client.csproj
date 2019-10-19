@@ -33,7 +33,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <TypeScriptCompile Include="ClientApp\src\components\Employee.tsx" />
     <TypeScriptCompile Include="ClientApp\src\store\Employee.ts" />
   </ItemGroup>
 

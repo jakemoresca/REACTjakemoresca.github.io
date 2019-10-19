@@ -5,6 +5,7 @@ import { About } from "./components/About";
 import { Experience } from "./components/Experience";
 import { Education } from "./components/Education";
 import { Skills } from "./components/Skills";
+import { Projects } from "./components/Projects";
 
 export default () => (
     <Layout>
@@ -12,6 +13,6 @@ export default () => (
         <Route path='/experience' component={Experience} />
         <Route path='/education' component={Education} />
         <Route path='/skills' component={Skills} />
-        <Route path='/projects' component={Experience} />
+        <Route path='/projects' component={Projects} />
     </Layout>
 );
