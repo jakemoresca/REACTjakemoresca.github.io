@@ -21,7 +21,7 @@ export default class NavMenu extends React.PureComponent<{}, { isOpen: boolean }
                     <NavbarBrand tag={Link} to="/">
                         <span className="d-block d-lg-none">Jake Daryl Moresca</span>
                         <span className="d-none d-lg-block">
-                            <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={profile} />
+                            <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={profile} alt="Profile" />
                         </span>
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggle} className="navbar-toggler" />

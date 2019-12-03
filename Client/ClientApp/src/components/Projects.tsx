@@ -1,6 +1,5 @@
 ﻿import * as React from "react";
 import formway1 from "../img/formway-1.png";
-import { Button } from "reactstrap";
 
 export const Projects: React.FunctionComponent = () =>
 {
@@ -19,6 +18,11 @@ export const Projects: React.FunctionComponent = () =>
                     <div className="row">
                         <img src={formway1} className="mr-3 image-thumbnail" alt="Formway preview" />
                     </div>
+                </div>
+
+                <div className="container mt-5">
+                    <h5 className="mt-0 row"><a href="https://github.com/jakemoresca/TicketNowNetCore">TicketNowNetCore</a></h5>
+                    <p className="row">My rewrite on my previous cinema ticketing project using .NET Core, Blazor, Vue.js, MongoDB and RabbitMQ</p>
                 </div>
 
                 <div className="container mt-5">

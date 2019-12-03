@@ -9,5 +9,5 @@ interface IDevIconProps
 
 export const DevIcon: React.FunctionComponent<IDevIconProps> = ({ icon, colored, tooltip }) =>
 {
-    return (<i className={`${icon} ${colored == true ? "colored" : ""}`} title={tooltip}></i>);
+    return (<i className={`${icon} ${colored === true ? "colored" : ""}`} title={tooltip}></i>);
 }

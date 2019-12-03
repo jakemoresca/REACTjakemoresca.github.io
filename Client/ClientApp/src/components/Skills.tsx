@@ -1,8 +1,5 @@
 ﻿import * as React from "react";
 import { DevIcon } from "./DevIcon";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDotCircle } from '@fortawesome/free-solid-svg-icons'
-
 
 export const Skills: React.FunctionComponent = () =>
 {
@@ -48,6 +45,9 @@ export const Skills: React.FunctionComponent = () =>
                     <li className="list-inline-item">
                         <DevIcon icon="devicon-git-plain-wordmark" tooltip="Git" colored />
                     </li>
+                    <li className="list-inline-item">
+                        <DevIcon icon="devicon-mongodb-plain-wordmark" tooltip="MongoDB" colored />
+                    </li>
                 </ul>
 
                 <div className="subheading mb-3">Proficient in the following technologies / methodologies:</div>
@@ -61,7 +61,7 @@ export const Skills: React.FunctionComponent = () =>
                     <li>
                         jQuery, React, Redux, Typescript, KnockoutJs, BackboneJs</li>
                     <li>
-                        SQL Server, PostgreSql
+                        SQL Server, PostgreSql, MongoDB, Redis
                     </li>
                     <li>
                         Rhino Mock, Moq, xUnit, jasmine, mocha, sinon, chai, Jest, Enzyme
@@ -70,16 +70,16 @@ export const Skills: React.FunctionComponent = () =>
                         Visual Studio, VS Code, Git, Azure DevOps, Continuous Integration, Continuous Delivery
                     </li>
                     <li>
-                        SOLID, OOP, Pair Programming, Agile, Scrum, TDD, Microservices
+                        SOLID, OOP, Pair Programming, Agile, Scrum, TDD, Microservices, CQRS, DDD
                     </li>
                     <li>
                         Node.js, npm, Nuget
                     </li>
                     <li>
-                        IBM AppScan, OWASP, Veracode
+                        IBM AppScan, OWASP, Veracode, SonarQube
                     </li>
                     <li>
-                        AWS, Azure, Amazon SQS, EC2, Load balancer, Cloud Formation, Elastic Search, Docker, Redis
+                        AWS, Azure, Amazon SQS, EC2, Load balancer, Cloud Formation, Elastic Search, Docker, RabbitMQ
                     </li>
                 </ul>
             </div>
