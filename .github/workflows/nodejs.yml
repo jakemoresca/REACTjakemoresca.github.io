@@ -9,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [8.x, 10.x, 12.x]
+        node-version: [13.x]
 
     steps:
     - uses: actions/checkout@v1
@@ -20,6 +20,8 @@ jobs:
     - name: npm deploy to github pages
       run: |
         npm ci
+        cd ./Client/ClientApp/
+        npm run install
         npm run deploy
       env:
         CI: true
