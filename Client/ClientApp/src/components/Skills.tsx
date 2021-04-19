@@ -64,7 +64,7 @@ export const Skills: React.FunctionComponent = () =>
                         SQL Server, PostgreSql, MongoDB, Redis
                     </li>
                     <li>
-                        Rhino Mock, Moq, xUnit, jasmine, mocha, sinon, chai, Jest, Enzyme
+                        Rhino Mock, Moq, xUnit, NUnit, AutoFixture, NSubstitute, jasmine, mocha, sinon, chai, Jest, Enzyme
                     </li>
                     <li>
                         Visual Studio, VS Code, Git, Azure DevOps, Continuous Integration, Continuous Delivery

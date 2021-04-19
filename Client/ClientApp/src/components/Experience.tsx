@@ -10,6 +10,20 @@ export const Experience: React.FunctionComponent = () =>
                 <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="resume-content">
                         <h3 className="mb-0">Senior Software Engineer</h3>
+                        <div className="subheading mb-3">EPAM</div>
+                        <ul>
+                            <li>Implemented pipelines for creating and building NuGet packages and depencies.</li>
+                            <li>Created rule based generation tool for generating dynamic data based on a defined specification.</li>
+                        </ul>
+                    </div>
+                    <div className="resume-date text-md-right">
+                        <span className="text-primary">October 2020 - Present</span>
+                    </div>
+                </div>
+
+                <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div className="resume-content">
+                        <h3 className="mb-0">Senior Software Engineer</h3>
                         <div className="subheading mb-3">Infor</div>
                         <ul>
                             <li>Worked as a Technical Lead for the whole team which is responsible for the overall architecture of the solution. Co-leads a technical scrum team together with other sub-team technical leads.</li>
@@ -22,7 +36,7 @@ export const Experience: React.FunctionComponent = () =>
                         </ul>
                     </div>
                     <div className="resume-date text-md-right">
-                        <span className="text-primary">November 2018 - Present</span>
+                        <span className="text-primary">November 2018 - October 2020</span>
                     </div>
                 </div>
 
