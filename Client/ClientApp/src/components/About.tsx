@@ -11,11 +11,11 @@ export const About: React.FunctionComponent = () =>
                     <span className="text-primary"> Moresca</span>
                 </h1>
                 <div className="subheading mb-5">
-                    6 Fleur de liz st. Cainta Green Park Village Cainta, Rizal, 1900, Philippines | +639478904784 | 
+                    +34 610 968 531
                     <a href="mailto:jmoresca@outlook.com"> jmoresca@outlook.com</a>
                 </div>
                 <p className="lead mb-5">
-                    Senior Software Engineer with more than 8 years of industry experience on delivering high quality of work with acceptable timeline. My proficiency on C# and .NET Framework makes me committed on improving my work and knowledge on software development.
+                    Senior Software Engineer with more than 10 years of industry experience on delivering high quality of work with acceptable timeline. My proficiency on C# and .NET Framework makes me committed on improving my work and knowledge on software development.
                 </p>
                 <div className="social-icons">
                     <a href="https://www.linkedin.com/in/jake-daryl-moresca-12b2458a/">
