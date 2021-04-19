@@ -1,20 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f0939ec.chunk.css",
-    "main.js": "/static/js/main.7436f3ff.chunk.js",
-    "main.js.map": "/static/js/main.7436f3ff.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.f6a1f042.js",
-    "runtime~main.js.map": "/static/js/runtime~main.f6a1f042.js.map",
-    "static/css/2.6b6b1443.chunk.css": "/static/css/2.6b6b1443.chunk.css",
-    "static/js/2.ace5eb88.chunk.js": "/static/js/2.ace5eb88.chunk.js",
-    "static/js/2.ace5eb88.chunk.js.map": "/static/js/2.ace5eb88.chunk.js.map",
+    "main.css": "/static/css/main.57d1da71.chunk.css",
+    "main.js": "/static/js/main.836d14a8.chunk.js",
+    "main.js.map": "/static/js/main.836d14a8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5176e91c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5176e91c.js.map",
+    "static/css/2.8b955757.chunk.css": "/static/css/2.8b955757.chunk.css",
+    "static/js/2.1c7bae27.chunk.js": "/static/js/2.1c7bae27.chunk.js",
+    "static/js/2.1c7bae27.chunk.js.map": "/static/js/2.1c7bae27.chunk.js.map",
+    "static/js/3.76fa098e.chunk.js": "/static/js/3.76fa098e.chunk.js",
+    "static/js/3.76fa098e.chunk.js.map": "/static/js/3.76fa098e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6abd943f6986b7c5f5df51572fdce8c2.js": "/precache-manifest.6abd943f6986b7c5f5df51572fdce8c2.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.6b6b1443.chunk.css.map": "/static/css/2.6b6b1443.chunk.css.map",
-    "static/css/main.3f0939ec.chunk.css.map": "/static/css/main.3f0939ec.chunk.css.map",
-    "static/media/devicon.css": "/static/media/devicon.74e6e6c3.svg",
-    "static/media/formway-1.png": "/static/media/formway-1.f81d05bf.png",
-    "static/media/profile.jpg": "/static/media/profile.b8b228dd.jpg"
-  }
+    "static/css/2.8b955757.chunk.css.map": "/static/css/2.8b955757.chunk.css.map",
+    "static/css/main.57d1da71.chunk.css.map": "/static/css/main.57d1da71.chunk.css.map",
+    "static/js/2.1c7bae27.chunk.js.LICENSE.txt": "/static/js/2.1c7bae27.chunk.js.LICENSE.txt",
+    "static/media/devicon.css": "/static/media/devicon.e923599d.ttf",
+    "static/media/formway-1.53f8e603.png": "/static/media/formway-1.53f8e603.png",
+    "static/media/profile.455014f2.jpg": "/static/media/profile.455014f2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5176e91c.js",
+    "static/css/2.8b955757.chunk.css",
+    "static/js/2.1c7bae27.chunk.js",
+    "static/css/main.57d1da71.chunk.css",
+    "static/js/main.836d14a8.chunk.js"
+  ]
 }
