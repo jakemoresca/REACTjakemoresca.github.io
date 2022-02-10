@@ -68,6 +68,6 @@
     "@types/react-router": "^5.1.13",
     "@types/react-router-dom": "^5.1.7",
     "@types/reactstrap": "^8.7.2",
-    "node-sass": "^5.0.0"
+    "node-sass": "^7.0.0"
   }
 }
