@@ -1,9 +1,8 @@
 import * as React from 'react';
 import { Collapse, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
-//import { Link } from 'react-router-dom';
 import Link from "next/link";
 import Image from "next/image";
-import profile from "../img/profile.jpg";
+import profile from "../../public/img/profile.jpg";
 
 export default class NavMenu extends React.PureComponent<{}, { isOpen: boolean }> {
     public state = {

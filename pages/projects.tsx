@@ -1,6 +1,5 @@
 ﻿import * as React from "react";
-import Image, { ImageLoader } from "next/image";
-import formway1 from "./img/formway-1.png";
+import Image from "next/image";
 import { InferGetServerSidePropsType } from "next/types";
 import { IPersonalProject } from "./data/project";
 import { loadProjects } from "./api/projects";
