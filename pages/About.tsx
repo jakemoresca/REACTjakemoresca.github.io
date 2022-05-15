@@ -2,7 +2,7 @@ import * as React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn, faGithub, faFacebookF } from '@fortawesome/free-brands-svg-icons'
 
-export const About: React.FunctionComponent = () =>
+const About: React.FunctionComponent = () =>
 {
     return (
         <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
@@ -32,3 +32,7 @@ export const About: React.FunctionComponent = () =>
         </section>
     );
 }
+
+export default () => (
+    <About />
+)
