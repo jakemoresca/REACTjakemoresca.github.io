@@ -33,6 +33,4 @@ const About: React.FunctionComponent = () =>
     );
 }
 
-export default () => (
-    <About />
-)
+export default About;
