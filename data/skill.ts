@@ -1,4 +1,4 @@
-export interface ISkill
+export default interface ISkill
 {
     icons: ISkillIcon[],
     skills: string[]

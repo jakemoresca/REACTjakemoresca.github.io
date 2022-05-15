@@ -1,7 +1,7 @@
 ﻿import * as React from "react";
 import Image from "next/image";
 import { InferGetServerSidePropsType } from "next/types";
-import { IPersonalProject } from "./data/project";
+import IPersonalProject from "../data/project";
 import { loadProjects } from "./api/projects";
 
 interface IProjectProps

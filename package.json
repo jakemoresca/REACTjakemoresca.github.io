@@ -19,7 +19,7 @@
     "react": "latest",
     "react-dom": "latest",
     "reactstrap": "^8.9.0",
-    "typescript": "latest"
+    "typescript": "^4.6.4"
   },
   "scripts": {
     "dev": "next dev",

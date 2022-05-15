@@ -1,4 +1,4 @@
-export interface IPersonalProject
+export default interface IPersonalProject
 {
     projects: IProject[]
 }

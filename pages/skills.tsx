@@ -1,7 +1,7 @@
 ﻿import { GetStaticProps, InferGetServerSidePropsType } from "next/types";
 import * as React from "react";
 import { DevIcon } from "./components/DevIcon";
-import { ISkill } from "./data/skill";
+import ISkill from "../data/skill";
 import { loadSkills } from "./api/skills";
 
 interface ISkillProps

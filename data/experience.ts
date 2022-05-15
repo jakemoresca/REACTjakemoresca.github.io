@@ -1,4 +1,4 @@
-export interface IExperience
+export default interface IExperience
 {
     workExperience: IWorkExperience[]
 }
