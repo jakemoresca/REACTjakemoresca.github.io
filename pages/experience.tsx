@@ -1,6 +1,7 @@
 ﻿import * as React from "react";
+import Layout from "./components/Layout";
 
-export const Experience: React.FunctionComponent = () =>
+const Experience: React.FunctionComponent = () =>
 {
     return (
         <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
@@ -89,3 +90,9 @@ export const Experience: React.FunctionComponent = () =>
         </section>
         );
 }
+
+export default () => (
+    <Layout>
+        <Experience></Experience>
+    </Layout>
+)
