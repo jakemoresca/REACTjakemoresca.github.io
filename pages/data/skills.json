@@ -1,0 +1,82 @@
+{
+    "icons": [
+        {
+            "name": "C#",
+            "css": "devicon-csharp-line",
+            "colored": true
+        },
+        {
+            "name": ".NET",
+            "css": "devicon-dot-net-plain-wordmark",
+            "colored": true
+        },
+        {
+            "name": "HTML5",
+            "css": "devicon-html5-plain-wordmark",
+            "colored": true
+        },
+        {
+            "name": "CSS3",
+            "css": "devicon-css3-plain-wordmark",
+            "colored": true
+        },
+        {
+            "name": "Javascript",
+            "css": "devicon-javascript-plain",
+            "colored": true
+        },
+        {
+            "name": "Typescript",
+            "css": "devicon-typescript-plain",
+            "colored": true
+        },
+        {
+            "name": "jQuery",
+            "css": "devicon-jquery-plain-wordmark",
+            "colored": true
+        },
+        {
+            "name": "React",
+            "css": "devicon-react-original-wordmark",
+            "colored": true
+        },
+        {
+            "name": "Less",
+            "css": "devicon-less-plain-wordmark",
+            "colored": true
+        },
+        {
+            "name": "AWS",
+            "css": "devicon-amazonwebservices-plain-wordmark",
+            "colored": true
+        },
+        {
+            "name": "Visual Studio",
+            "css": "devicon-visualstudio-plain",
+            "colored": true
+        },
+        {
+            "name": "Git",
+            "css": "devicon-git-plain-wordmark",
+            "colored": true
+        },
+        {
+            "name": "MongoDB",
+            "css": "devicon-mongodb-plain-wordmark",
+            "colored": true
+        }
+    ],
+    "skills": [
+        "C#, .NET Core, Entity Framework, WCF",
+        "ASP.NET, ASP.NET MVC, Web Forms, Win Forms",
+        "Javascript, Typescript, HTML5, CSS3, LESS, Bootstrap",
+        "jQuery, React, Redux, Typescript, KnockoutJs, BackboneJs",
+        "SQL Server, PostgreSql, MongoDB, Redis",
+        "Rhino Mock, Moq, xUnit, NUnit, AutoFixture, NSubstitute, jasmine, mocha, sinon, chai, Jest, Enzyme",
+        "Visual Studio, VS Code, Git, Azure DevOps, Continuous Integration, Continuous Delivery",
+        "SOLID, OOP, Pair Programming, Agile, Scrum, TDD, Microservices, CQRS, DDD",
+        "Node.js, npm, Nuget",
+        "IBM AppScan, OWASP, Veracode, SonarQube",
+        "AWS, Azure, Amazon SQS, EC2, Load balancer, Cloud Formation, Elastic Search, Docker, RabbitMQ"
+    ]
+}

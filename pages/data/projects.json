@@ -1,0 +1,46 @@
+{
+    "projects": [
+        {
+            "name": "Formway",
+            "description": "A single page website created for a client. Utilizes Bootstrap 3 and jQuery.",
+            "url": "http://formway.ph",
+            "imageSrc": "/img/formway-1.png",
+            "containerClassName": "container"
+        },
+        {
+            "name": "TicketNowNetCore",
+            "description": "My rewrite on my previous cinema ticketing project using .NET Core, Blazor, Vue.js, MongoDB and RabbitMQ",
+            "url": "https://github.com/jakemoresca/TicketNowNetCore",
+            "imageSrc": "",
+            "containerClassName": "container mt-5"
+        },
+        {
+            "name": "Archiver",
+            "description": "Archives file on a specific directory based on regex pattern and last modified date.  Built-on .NET Framework.",
+            "url": "https://github.com/jakemoresca/Archiver",
+            "imageSrc": "",
+            "containerClassName": "container mt-5"
+        },
+        {
+            "name": "Juan Life",
+            "description": "RPG Farming Game. Built using RPG Maker MV.",
+            "url": "https://github.com/jakemoresca/Juan-Life",
+            "imageSrc": "",
+            "containerClassName": "container mt-5"
+        },
+        {
+            "name": "Vehicle Plot Delivery",
+            "description": "Test implementation of Sender and Receiver using RabbitMQ, .NET Core and storage via Redis.",
+            "url": "https://github.com/jakemoresca/Vehicle-Plot-Delivery",
+            "imageSrc": "",
+            "containerClassName": "container mt-5"
+        },
+        {
+            "name": "React Typescript starter Template",
+            "description": "My modified starter template for creating Typescript, .NET Core, and React.",
+            "url": "https://github.com/jakemoresca/React-Typescript-Starter-Template",
+            "imageSrc": "",
+            "containerClassName": "container mt-5"
+        }
+    ]
+}
