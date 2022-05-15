@@ -7,7 +7,6 @@ interface IExperienceProps {
     props: IExperience
 }
 
-//const Experience: NextFunctionComponent<Props, InitialProps, Context> = ({ posts, subreddit }) => (
 const Experience = ({ props }: IExperienceProps) => (
     <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
         <div className="w-100">
