@@ -1,7 +1,9 @@
 ﻿import * as React from "react";
-import formway1 from "../img/formway-1.png";
+import Image from "next/image";
+import formway1 from "./img/formway-1.png";
+import Layout from "./components/Layout";
 
-export const Projects: React.FunctionComponent = () =>
+const Projects: React.FunctionComponent = () =>
 {
     return (
         <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
@@ -16,7 +18,7 @@ export const Projects: React.FunctionComponent = () =>
                         A single page website created for a client. Utilizes Bootstrap 3 and jQuery.
                     </p>
                     <div className="row">
-                        <img src={formway1} className="mr-3 image-thumbnail" alt="Formway preview" />
+                        <Image src={formway1} className="mr-3 image-thumbnail" alt="Formway preview" />
                     </div>
                 </div>
 
@@ -49,3 +51,9 @@ export const Projects: React.FunctionComponent = () =>
         </section>
     );
 }
+
+export default () => (
+    <Layout>
+        <Projects />
+    </Layout>
+)

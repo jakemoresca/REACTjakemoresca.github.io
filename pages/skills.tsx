@@ -1,7 +1,8 @@
 ﻿import * as React from "react";
-import { DevIcon } from "./DevIcon";
+import { DevIcon } from "./components/DevIcon";
+import Layout from "./components/Layout";
 
-export const Skills: React.FunctionComponent = () =>
+const Skills: React.FunctionComponent = () =>
 {
     return (
         <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
@@ -85,3 +86,9 @@ export const Skills: React.FunctionComponent = () =>
             </div>
         </section>);
 }
+
+export default () => (
+    <Layout>
+        <Skills />
+    </Layout>
+)

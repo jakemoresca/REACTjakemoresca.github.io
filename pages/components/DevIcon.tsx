@@ -11,3 +11,5 @@ export const DevIcon: React.FunctionComponent<IDevIconProps> = ({ icon, colored,
 {
     return (<i className={`${icon} ${colored === true ? "colored" : ""}`} title={tooltip}></i>);
 }
+
+export default DevIcon;

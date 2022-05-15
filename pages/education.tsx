@@ -1,6 +1,7 @@
 import * as React from "react";
+import Layout from "./components/Layout";
 
-export const Education: React.FunctionComponent = () =>
+const Education: React.FunctionComponent = () =>
 {
     return (
         <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
@@ -20,3 +21,9 @@ export const Education: React.FunctionComponent = () =>
             </div>
         </section>);
 }
+
+export default () => (
+    <Layout>
+        <Education />
+    </Layout>
+)
