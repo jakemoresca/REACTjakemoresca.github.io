@@ -18,7 +18,7 @@ export default function Experience(props: InferGetServerSidePropsType<typeof get
                             <div key={index} className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                                 <div className="resume-content">
                                     <h3 className="mb-0">{x.position}</h3>
-                                    <div className="subheading mb-3">{x.position}</div>
+                                    <div className="subheading mb-3">{x.company}</div>
                                     <ul>
                                         {x.responsibilities.map((y, index) => {
                                             return (<li key={index}>{y}</li>);
