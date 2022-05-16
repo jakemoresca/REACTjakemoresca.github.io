@@ -1,9 +1,8 @@
 import * as React from 'react';
 import { Collapse, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
-//import { Link } from 'react-router-dom';
 import Link from "next/link";
 import Image from "next/image";
-import profile from "../img/profile.jpg";
+//import profile from "/img/profile.jpg";
 
 export default class NavMenu extends React.PureComponent<{}, { isOpen: boolean }> {
     public state = {
@@ -22,7 +21,7 @@ export default class NavMenu extends React.PureComponent<{}, { isOpen: boolean }
                     <NavbarBrand to="/">
                         <span className="d-block d-lg-none">Jake Daryl Moresca</span>
                         <span className="d-none d-lg-block">
-                            <Image className="img-fluid img-profile rounded-circle mx-auto mb-2" src={profile} alt="Profile" />
+                            <Image className="img-fluid img-profile rounded-circle mx-auto mb-2" src={"/img/profile.jpg"} width="123.72" height="160" alt="Profile" />
                         </span>
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggle} className="navbar-toggler" />

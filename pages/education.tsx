@@ -1,5 +1,4 @@
 import * as React from "react";
-import Layout from "./components/Layout";
 
 const Education: React.FunctionComponent = () =>
 {
@@ -22,8 +21,4 @@ const Education: React.FunctionComponent = () =>
         </section>);
 }
 
-export default () => (
-    <Layout>
-        <Education />
-    </Layout>
-)
+export default Education;

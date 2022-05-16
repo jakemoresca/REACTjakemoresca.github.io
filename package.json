@@ -9,45 +9,24 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
-    "@testing-library/jest-dom": "^5.11.10",
-    "@testing-library/react": "^11.2.6",
-    "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^4.6.0",
-    "connected-react-router": "^6.9.1",
     "devicon": "^2.11.0",
-    "gh-pages": "^3.1.0",
     "history": "^4.10.1",
     "jquery": "^3.6.0",
     "jquery.easing": "^1.4.1",
     "merge": "^2.1.1",
-    "next": "^12.1.6",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
     "reactstrap": "^8.9.0",
-    "redux": "^4.0.5",
-    "redux-thunk": "^2.3.0",
-    "typescript": "^4.2.4",
-    "web-vitals": "^1.1.1"
+    "typescript": "^4.6.4"
   },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run export",
-    "deploy": "gh-pages -d out -b master",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "export": "next build && next export"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
@@ -60,5 +39,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.33",
+    "@types/react": "^18.0.9",
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6"
   }
 }
