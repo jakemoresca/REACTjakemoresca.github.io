@@ -26,7 +26,7 @@ export default function Experience(props: InferGetServerSidePropsType<typeof get
                                     </ul>
                                 </div>
                                 <div className="resume-date text-md-right">
-                                    <span className="text-primary">October 2020 - Present</span>
+                                    <span className="text-primary">{x.from} - {x.to}</span>
                                 </div>
                             </div>);
                     })

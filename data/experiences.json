@@ -7,7 +7,9 @@
         "to": "Present",
         "responsibilities": [
             "Implemented pipelines for creating and building NuGet packages and depencies.",
-            "Created rule based generation tool for generating dynamic data based on a defined specification."
+            "Created rule based generation tool for generating dynamic data based on a defined specification.",
+            "Worked as a Team Lead for a team of 4 developers and 1 QA which is responsible for the delivery of backlog items and production support.",
+            "Successfully integrated company's own SSO using OAUTH2 to our application which improves the usability and security of the application."
         ]
     },
     {
