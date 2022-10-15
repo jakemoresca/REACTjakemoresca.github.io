@@ -18,6 +18,7 @@
             "name": "MRequesterr",
             "description": "A requesting front end application for Sonarr and Radarr",
             "url": "https://github.com/jakemoresca/MRequesterr",
+            "imageSrc": "",
             "containerClassName": "container"
         },
         {
