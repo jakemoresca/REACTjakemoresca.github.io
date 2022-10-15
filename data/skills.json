@@ -36,8 +36,18 @@
             "colored": true
         },
         {
+            "name": "Next.js",
+            "css": "devicon-nextjs-original",
+            "colored": true
+        },
+        {
             "name": "React",
             "css": "devicon-react-original-wordmark",
+            "colored": true
+        },
+        {
+            "name": "Angular",
+            "css": "devicon-angularjs-plain",
             "colored": true
         },
         {
@@ -70,7 +80,7 @@
         "C#, .NET Core, Entity Framework, WCF",
         "ASP.NET, ASP.NET MVC, Web Forms, Win Forms",
         "Javascript, Typescript, HTML5, CSS3, LESS, Bootstrap",
-        "jQuery, React, Redux, Typescript, KnockoutJs, BackboneJs",
+        "Next.js, React, Redux, Angular, KnockoutJs, BackboneJs, jQuery",
         "SQL Server, PostgreSql, MongoDB, Redis",
         "Rhino Mock, Moq, xUnit, NUnit, AutoFixture, NSubstitute, jasmine, mocha, sinon, chai, Jest, Enzyme",
         "Visual Studio, VS Code, Git, Azure DevOps, Continuous Integration, Continuous Delivery",

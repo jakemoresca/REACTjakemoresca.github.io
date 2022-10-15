@@ -18,14 +18,11 @@ const About: React.FunctionComponent = () =>
                     Senior Software Engineer with more than 10 years of industry experience on delivering high quality of work with acceptable timeline. My proficiency on C# and .NET Framework makes me committed on improving my work and knowledge on software development.
                 </p>
                 <div className="social-icons">
-                    <a href="https://www.linkedin.com/in/jake-daryl-moresca-12b2458a/">
+                    <a href="https://www.linkedin.com/in/jake-daryl-moresca/">
                         <FontAwesomeIcon icon={faLinkedinIn} />
                     </a>
                     <a href="https://github.com/jakemoresca">
                         <FontAwesomeIcon icon={faGithub} />
-                    </a>
-                    <a href="https://www.facebook.com/dauntless0928">
-                        <FontAwesomeIcon icon={faFacebookF} />
                     </a>
                 </div>
             </div>

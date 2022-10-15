@@ -8,6 +8,19 @@
             "containerClassName": "container"
         },
         {
+            "name": "Cross Worlds Puzzle Solver",
+            "description": "Puzzle solver made for Ni no Kuni: Cross Worlds.",
+            "url": "https://crossworlds-solver.rydersir.es/",
+            "imageSrc": "https://raw.githubusercontent.com/jakemoresca/crossworlds-puzzle-solver/main/preview.png",
+            "containerClassName": "container"
+        },
+        {
+            "name": "MRequesterr",
+            "description": "A requesting front end application for Sonarr and Radarr",
+            "url": "https://github.com/jakemoresca/MRequesterr",
+            "containerClassName": "container"
+        },
+        {
             "name": "TicketNowNetCore",
             "description": "My rewrite on my previous cinema ticketing project using .NET Core, Blazor, Vue.js, MongoDB and RabbitMQ",
             "url": "https://github.com/jakemoresca/TicketNowNetCore",

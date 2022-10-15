@@ -2,19 +2,29 @@
     "workExperience": [
     {
         "position": "Senior Software Engineer",
-        "company": "EPAM",
-        "from": "October 2020",
+        "company": "Milestone Systems, Barcelona, Spain",
+        "from": "October 2022",
         "to": "Present",
         "responsibilities": [
-            "Implemented pipelines for creating and building NuGet packages and depencies.",
-            "Created rule based generation tool for generating dynamic data based on a defined specification.",
-            "Worked as a Team Lead for a team of 4 developers and 1 QA which is responsible for the delivery of backlog items and production support.",
-            "Successfully integrated company's own SSO using OAUTH2 to our application which improves the usability and security of the application."
+            "Part of the Verticals and Bundles team."
         ]
     },
     {
         "position": "Senior Software Engineer",
-        "company": "Infor",
+        "company": "EPAM, Malaga, Spain",
+        "from": "October 2020",
+        "to": "October 2022",
+        "responsibilities": [
+            "Worked as a team lead for 2 development teams which is responsible for the delivery of backlog items and production support.",
+            "Implemented jenkins pipelines for creating and building NuGet packages and dependencies.",
+            "Created rule based generation tool for generating dynamic data based on a defined specification.",
+            "Successfully client's own SSO using OAUTH2 to our application which improves the usability and security of the application.",
+            "Implemented a code based product decisioning which increased the application speed by 30% and also makes the decisioning testable and extendable."
+        ]
+    },
+    {
+        "position": "Senior Software Engineer",
+        "company": "Infor, Taguig, Philippines",
         "from": "November 2018",
         "to": "October 2020",
         "responsibilities": [
@@ -29,7 +39,7 @@
     },
     {
         "position": "Software Engineer",
-        "company": "Infor",
+        "company": "Infor, Taguig, Philippines",
         "from": "November 2015",
         "to": "November 2018",
         "responsibilities": [
@@ -40,7 +50,7 @@
     },
     {
         "position": "Associate Software Engineer",
-        "company": "Infor",
+        "company": "Infor, Taguig, Philippines",
         "from": "July 2014",
         "to": "November 2015",
         "responsibilities": [
@@ -50,7 +60,7 @@
     },
     {
         "position": "Software Developer",
-        "company": "Stellar",
+        "company": "Stellar, Quezon City, Philippines",
         "from": "July 2011",
         "to": "July 2014",
         "responsibilities": [

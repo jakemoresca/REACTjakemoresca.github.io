@@ -27,7 +27,7 @@ export default function Projects(props: InferGetServerSidePropsType<typeof getSt
                             { x.imageSrc ? 
                                 <div className="row">
                                     <Image src={x.imageSrc}
-                                        className="mr-3 image-thumbnail" height="234" width="600" alt={`${x.name} Preview`} />
+                                        className="mr-3 image-thumbnail" height="400" width="600" alt={`${x.name} Preview`} />
                                 </div> : null
                             }
                         </div>);
